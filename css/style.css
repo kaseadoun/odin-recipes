@@ -25,23 +25,35 @@ h1:hover {
 }
 
 #sausageTips {
-    margin: 5px;
+    margin: 5px 0;
     display: block;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#list {
-    border: solid black;
-}
-
 #recipes {
-    text-align: left;
-    border: solid black;
+    text-align: center;
+    padding: 0;
 }
 
 li {
+    text-align: center;
     display: block;
+    margin: 10px 0;
+}
+
+li a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: solid black;
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    width: 25%;
+}
+
+li a:hover {
+    
 }
